@@ -145,7 +145,7 @@ Mel Spectrogram – visual representation of the spectrum of frequencies.
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/deepfake-audio-detection.git
+git clone https://github.com/Manojkumar9026/deepfake-audio-detection.git
 cd deepfake-audio-detection
 2. Install Dependencies
 bash
