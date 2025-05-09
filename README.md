@@ -110,26 +110,26 @@ i used four different machine learning model like gradient boosting ,xg boost,sv
 ChatGPT said:
 Great! Here's an updated and customized README.md template based on your work using four ML models and three audio features (MFCC, Mel Frequency, Mel Spectrogram) for Deepfake Audio Detection:
 
-🎧 Deepfake Audio Detection Using Machine Learning
+Deepfake Audio Detection Using Machine Learning
 Detect whether an audio file is real or deepfake using machine learning algorithms trained on key audio features like MFCC, Mel Frequency, and Mel Spectrogram.
 
-📌 Overview
+Overview
 With the increasing misuse of AI-generated voices, detecting deepfake audio has become critical. This project uses classical machine learning algorithms to analyze extracted audio features and classify audio clips as REAL or FAKE.
 
-🧠 Models Used
+Models Used
 We evaluated the following ML models:
 
-🌲 Random Forest
+1.Random Forest
 
-💥 Gradient Boosting
+2.Gradient Boosting
 
-⚡ XGBoost
+3.XGBoost
 
-💫 Support Vector Machine (SVM)
+4.Support Vector Machine (SVM)
 
 Each model was trained and tested on extracted features to determine the most effective classifier for deepfake detection.
 
-🎵 Audio Features Extracted
+Audio Features Extracted
 We used three robust features from audio signals:
 
 MFCC (Mel-Frequency Cepstral Coefficients) – captures the timbral texture.
@@ -140,7 +140,7 @@ Mel Spectrogram – visual representation of the spectrum of frequencies.
 
 (Update with your actual metrics)
 
-🛠 How to Run the Project
+How to Run the Project
 1. Clone the Repository
 bash
 Copy
@@ -157,7 +157,7 @@ bash
 Copy
 Edit
 python detect_audio.py
-📂 Folder Structure
+Folder Structure
 bash
 Copy
 Edit
@@ -168,22 +168,21 @@ deepfake-audio-detection/
 ├── detect_audio.py        # Inference script
 ├── requirements.txt       
 └── README.md
-📚 Dataset Used
+Dataset Used
 You can mention the dataset(s) here:
 
 WaveFake
 
 Custom collected dataset (if applicable)
 
-📈 Future Improvements
+Future Improvements
 Integrate Deep Learning models like LSTM or CNN
 
 Real-time streaming and detection support
 
 Web-based dashboard with live audio input
 
-🙌 Acknowledgements
+Acknowledgements
 Thanks to all open-source contributors and dataset providers who made this research possible.
 
-🧑‍💻 Author
-Your Name – Manojkumar9026
+Author: Manojkumar9026
